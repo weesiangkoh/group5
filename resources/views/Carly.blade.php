@@ -23,7 +23,7 @@
     .columns {
       width: 100%;
     }
-  }
+  }123
   .navbar-custom {
     color:black;
     background-image: linear-gradient(black, lightblue, black);
