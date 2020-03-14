@@ -36,20 +36,20 @@
     }
   </style>
  <nav class="navbar navbar-light navbar-custom">
-  <img src="image/312-3126045_create-your-your-name-in-japanese-kanji-music.png" class="img-fluid rounded-circle" style="width: 50px" alt="">
-  <a class="navbar-brand" style="width: left;" href="">M.Y.S</a>&nbsp;  
-            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="contactUS.html">Help<span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="sign in .html">Sign in<span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="sign up.html">Sign up<span class="sr-only">(current)</span></a>
+  <img src="image/logo.png" class="img-fluid rounded-circle" style="width: 50px" alt="">
+  <a class="navbar-brand" style="width: left;" href="{{ url('/main') }}">M.Y.S</a>&nbsp;  
+            <a class="nav-link" href="{{ url('/main') }}">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="{{ url('/contactus') }}">Help<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="{{ url('/login') }}">Sign in<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="{{ url('/register') }}">Sign up<span class="sr-only">(current)</span></a>
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Category
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="english song.html">English Music</a>
-                <a class="dropdown-item" href="lisa.html">Singer Lisa</a>
-                  <a class="dropdown-item" href="kenshi.html">Singer Kenshi</a>
-                  <a class="dropdown-item" href="list.html">Japan Music</a>
+                <a class="dropdown-item" href="{{ url('/english song') }}">English Music</a>
+                <a class="dropdown-item" href="{{ url('/lisa') }}">Singer Lisa</a>
+                  <a class="dropdown-item" href="{{ url('/kenshi') }}">Singer Kenshi</a>
+                  <a class="dropdown-item" href="{{ url('/list') }}">Japan Music</a>
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="loading.html">Plan</a>
               </div>

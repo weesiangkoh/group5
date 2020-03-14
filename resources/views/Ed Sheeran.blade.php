@@ -8,7 +8,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-  <title>Carly Rae Jepsen</title>
+  <title>Ed Sheeran</title>
 </head>
 <style>
     body{
@@ -51,6 +51,8 @@
 <nav class="navbar navbar-light navbar-custom">
   <img src="image/logo.png" class="img-fluid rounded-circle" style="width: 50px" alt="">
   <a class="navbar-brand" style="width: left;" href="{{ url('/main') }}">M.Y.S</a>&nbsp;  
+
+      
   <a href="{{ url('/main') }}">Home</a>
   <a href="{{ url('/contactus') }}">Help</a>
   <a href="{{ url('/login') }}">Sign In</a>
@@ -66,7 +68,9 @@
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="loading.html">Plan</a>
               </div>
-                    
+    </li>
+  </li>
+</ul>
 <form class="form-inline my-2 my-lg-0">
   <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
   <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
@@ -104,106 +108,98 @@
     <div class="row">
       </ul>
     </div>
-    <div class="columns">
-              <ul class="list-group">
-                  <img src="image/room.jpg" alt="" width="80%" height="100%">
-                  <audio controls>
-                    <source src="mp3/Carly Rae Jepsen - Want You In My Room.ogg" type="audio/ogg">
-                      <source src="mp3/Carly Rae Jepsen - Want You In My Room.mp3" type="audio/mpeg">
-                  </audio> Rae Jepsen - Want You In My Room</p>
+
+        <div class="columns">
+            <ul class="list-group">
+              <img src="image/maxresdefault.jpg" alt="" width="80%" height="100%">
+                <audio controls>
+              <source src="Perfect.ogg" type="audio/ogg">
+                <source src="mp3/Ed Sheeran - Perfect.mp3" type="audio/mpeg">
+                </audio>
+            <p><center>Ed Sheeran - Perfect</center> </p>
             </ul>
           </div>
           <div class="columns">
               <ul class="list-group">
-                  <img src="image/boyproblem.jpg" alt="" width="80%" height="100%">
+                <img src="image/sing.jpg" alt="" width="80%" height="100%">
                   <audio controls>
-                    <source src="mp3/Carly Rae Jepsen - Boy Problems.ogg" type="audio/ogg">
-                      <source src="mp3/Carly Rae Jepsen - Boy Problems.mp3" type="audio/mpeg">
-                  </audio>
-              <p>Carly Rae Jepsen - Boy Problems </p>
+                  <source src="Sing.ogg" type="audio/ogg">
+                      <source src="mp3/Ed Sheeran - Sing.mp3" type="audio/mpeg">
+                      </audio>
+              <p><center>Ed Sheeran - Sing</center> </p>
               </ul>
             </div>
 
             <div class="columns">
-              <ul class="list-group">
-                  <img src="image/callme.jpeg" alt="" width="80%" height="100%">
-                  <audio controls>
-                    <source src="mp3/Carly Rae Jepsen - Call Me Maybe.ogg" type="audio/ogg">
-                      <source src="mp3/Carly Rae Jepsen - Call Me Maybe.mp3" type="audio/mpeg">
-                  </audio>
-                <p>Carly Rae Jepsen - Call Me Maybe </p>
+                <ul class="list-group">
+                    <img src="image/give.jpg" alt="" width="80%" height="100%">
+                    <audio controls>
+                        <source src="mp3/Ed Sheeran - Give Me Love.mp3" type="audio/mpeg">
+                        </audio>
+                <p><center>Ed Sheeran - Give Me Love</center> </p>
                 </ul>
               </div>
               <div class="columns">
-              <ul class="list-group">
-                  <img src="image/cut.jpg" alt="" width="80%" height="100%">
-                  <audio controls>
-                    <source src="mp3/Carly Rae Jepsen - Cut To The Feeling .ogg" type="audio/ogg">
-                      <source src="mp3/Carly Rae Jepsen - Cut To The Feeling .mp3" type="audio/mpeg">
-                  </audio>
-                  <p>Carly Rae Jepsen - Cut To The Feeling</p>
+                  <ul class="list-group">
+                      <img src="image/original.jpg" alt="" width="80%" height="100%">
+                    <audio controls>
+                        <source src="mp3/Ed Sheeran - Happier.mp3" type="audio/mpeg">
+                        </audio>
+                  <p><center>Ed Sheeran - Happier</center> </p>
                   </ul>
                 </div>
                 <div class="columns">
-              <ul class="list-group">
-                  <img src="image/likeyou.jpg" alt="" width="80%" height="100%">
-                  <audio controls>
-                    <source src="mp3/Carly Rae Jepsen - I Really Like You.ogg" type="audio/ogg">
-                      <source src="mp3/Carly Rae Jepsen - I Really Like You.mp3" type="audio/mpeg">
-                  </audio>
-                    <p>Carly Rae Jepsen - I Really Like You </p>
+                    <ul class="list-group">
+                        <img src="image/castle.jpg" alt="" width="80%" height="100%">
+                        <audio controls>
+                            <source src="castle.ogg" type="audio/ogg">
+                            <source src="mp3/Ed Sheeran - Castle On The Hill.mp3" type="audio/mpeg">
+                            </audio>
+                    <p><center>Ed Sheeran - Castle On The Hill</center> </p>
                     </ul>
                   </div>
                   <div class="columns">
-              <ul class="list-group">
-                  <img src="image/found.png" alt="" width="80%" height="100%">
-                  <audio controls>
-                    <source src="mp3/Carly Rae Jepsen - Now That I Found You.ogg" type="audio/ogg">
-                      <source src="mp3/Carly Rae Jepsen - Now That I Found You.mp3" type="audio/mpeg">
-                  </audio>
-                      <p>Carly Rae Jepsen - Now That I Found You </p>
+                      <ul class="list-group">
+                        <img src="image/shape.jfif" alt="" width="80%" height="100%">
+                           <audio controls>
+                              <source src="Shape of You.ogg" type="audio/ogg">
+                                <source src="mp3/Ed Sheeran - Shape Of You (online-audio-converter.com).mp3" type="audio/mpeg">
+                                </audio>
+                      <p><center>Ed Sheeran - Shape Of You</center> </p>
                       </ul>
                     </div>
                     <div class="columns">
-              <ul class="list-group">
-                  <img src="image/party.jpg" alt="" width="80%" height="100%">
-                  <audio controls>
-                    <source src="mp3/Carly Rae Jepsen - Party For One.ogg" type="audio/ogg">
-                      <source src="mp3/Carly Rae Jepsen - Party For One.mp3" type="audio/mpeg">
-                  </audio>
-                        <p>Carly Rae Jepsen - Party For One </p>
+                        <ul class="list-group">
+                            <img src="image/girl.jpg" alt="" width="80%" height="90%">
+                            <audio controls>
+                               <source src="Galway Girl.ogg" type="audio/ogg">
+                                 <source src="mp3/Ed Sheeran - Galway Girl.mp3" type="audio/mpeg">
+                                 </audio>
+                        <p><center>Ed Sheeran - Galway Girl </center> </p>
                         </ul>
                       </div>
                       <div class="columns">
-              <ul class="list-group">
-                  <img src="image/sound.jpg" alt="" width="80%" height="100%">
-                  <audio controls>
-                    <source src="mp3/Carly Rae Jepsen - The Sound.ogg" type="audio/ogg">
-                      <source src="mp3/Carly Rae Jepsen - The Sound.mp3" type="audio/mpeg">
-                  </audio>
-                          <p>Carly Rae Jepsen - The Sound</p>
+                          <ul class="list-group">
+                              <img src="image/you.jpg" alt="" width="80%" height="90%">
+                              <audio controls>
+                                 <source src="You need Me.ogg" type="audio/ogg">
+                                   <source src=" mp3/Ed Sheeran - You Need Me, I Don't Need You.mp3" type="audio/mpeg">
+                                   </audio>
+                               
+                          <p><center>Ed Sheeran - You Need Me, I Don't Need You</center> </p>
                           </ul>
                         </div>
                         <div class="columns">
-              <ul class="list-group">
-                  <img src="image/much.jpg" alt="" width="80%" height="100%">
-                  <audio controls>
-                    <source src="mp3/Carly Rae Jepsen - Too Much .ogg" type="audio/ogg">
-                      <source src="mp3/Carly Rae Jepsen - Too Much .mp3" type="audio/mpeg">
-                  </audio>
-                            <p>Carly Rae Jepsen - Too Much</p>
+                            <ul class="list-group">
+                                <img src="image/think.jfif" alt="" width="80%" height="90%">
+                              <audio controls>
+                                 <source src="Thinking.ogg" type="audio/ogg">
+                                   <source src=" mp3/Ed Sheeran - Thinking Out Loud.mp3" type="audio/mpeg">
+                                   </audio>
+                            <p><center>Ed Sheeran - Thinking Out Loud</center> </p>
                             </ul>
                           </div>
       
-    
-
-                  
-
-                      
-                          
-
-                  
-                  
 
 <div>
 <div style="flood-color: red;"></div>

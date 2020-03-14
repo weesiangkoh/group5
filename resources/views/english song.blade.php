@@ -51,7 +51,7 @@
   
 </style>
  <nav class="navbar navbar-light navbar-custom">
-  <img src="image/312-3126045_create-your-your-name-in-japanese-kanji-music.png" class="img-fluid rounded-circle" style="width: 50px" alt="">
+  <img src="image/logo.png" class="img-fluid rounded-circle" style="width: 50px" alt="">
   <a class="navbar-brand" style="width: left;" href="{{ url('/main') }}">M.Y.S</a>&nbsp;  
   <a href="{{ url('/main') }}">Home</a>
   <a href="{{ url('/contactus') }}">Help</a>
@@ -129,21 +129,21 @@
                               <div class="columns">
                                   <ul class="list-group">
                                   <img src="image/singer/Ed Sheeran.png" alt="" width="200" height="200">
-                                  <a href="Ed Sheeran.html"> Ed Sheeran</a>
+                                  <a href="{{ url('/Ed Sheeran') }}"> Ed Sheeran</a>
                                   </ul>
                                   </div>
 
                                   <div class="columns">
                                       <ul class="list-group">
                                       <img src="image/singer/LMFAOVEVO.png" alt="" width="200" height="200">
-                                      <a href="LMFAOVEVO.html"> LMFAOVEVO</a>
+                                      <a href="{{ url('/LMFAOVEVO') }}"> LMFAOVEVO</a>
                                       </ul>
                                       </div>
 
                                       <div class="columns">
                                           <ul class="list-group">
                                           <img src="image/singer/The Chainsmokers.png" alt="" width="200" height="200">
-                                          <a href="The Chainsmokers.html"> The Chainsmokers</a>
+                                          <a href="{{ url('/Chainsmokers') }}"> The Chainsmokers</a>
                                           </ul>
                                           </div>
 

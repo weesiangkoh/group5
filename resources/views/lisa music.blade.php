@@ -1,6 +1,6 @@
 <!doctype html>
  <html lang="en">
- 
+   
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -8,24 +8,23 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-  <title>Details</title>
+  <title>Lisa</title>
 </head>
-
 <style>
-  body{
-    background-color:grey;
+    body{
+      background-color: gray;
+    }
+    .columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
   }
-  .columns {
-  float: left;
-  width: 33.3%;
-  padding: 8px;
-}
-@media only screen and (max-width: 600px) {
-  .columns {
-    width: 100%;
+  @media only screen and (max-width: 600px) {
+    .columns {
+      width: 100%;
+    }
   }
-}
-.navbar-custom {
+  .navbar-custom {
     color:black;
     background-image: linear-gradient(black, lightblue, black);
 }
@@ -48,13 +47,14 @@
   -webkit-border-radius:25px;
   border-radius:25px;
     }
-  
-</style>
- <nav class="navbar navbar-light navbar-custom">
+  </style>
+<nav class="navbar navbar-light navbar-custom">
   <img src="image/logo.png" class="img-fluid rounded-circle" style="width: 50px" alt="">
   <a class="navbar-brand" style="width: left;" href="{{ url('/main') }}">M.Y.S</a>&nbsp;  
+
+      
             <a class="nav-link" href="{{ url('/main') }}">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-link" href="{{ url('/help') }}">Help<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="{{ url('/contactus') }}">Help<span class="sr-only">(current)</span></a>
             <a class="nav-link" href="{{ url('/login') }}">Sign in<span class="sr-only">(current)</span></a>
             <a class="nav-link" href="{{ url('/register') }}">Sign up<span class="sr-only">(current)</span></a>
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -68,17 +68,17 @@
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="loading.html">Plan</a>
               </div>
-                    
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-    </div>
- </nav>
- 
+    </li>
+  </li>
+</ul>
+<form class="form-inline my-2 my-lg-0">
+  <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+</form>
+</div>
+</div>
+</nav>
+
 </style>
 </head>
 <body>
@@ -103,32 +103,38 @@
 .mySlides {display:none;}
 </style>
 <body>
- <div class="container-fluid" style="margin-top:10px">
-
+<div class="container-fluid" style="margin-top:10px">
     
-                <div class="row">
+    <div class="row">
+      </ul>
+    </div>
 
+        <div class="columns">
+            <ul class="list-group">
+              <img src="japan/picture/unlasting.jpg" alt="" width="80%" height="100%">
+              <a href="{{ url('/unlasting') }}"> unlasting</a>
+           
+            </ul>
+          </div>
+          <div class="columns">
+              <ul class="list-group">
+                <img src="japan/picture/gurenge.jpg" alt="" width="80%" height="100%">
+                <a href="{{ url('/gurenge') }}"> Gurenge</a>
+              
+              </ul>
+            </div>
+
+            <div class="columns">
+                <ul class="list-group">
+                    <img src="japan/picture/adamas.jpg" alt="" width="80%" height="100%">
+                    <a href="{{ url('/adamas') }}"> Adamas</a> 
+                </ul>
+              </div>
+             
+                 
                   
-                        </ul>
-                      </div>
+      
 
-                            <div class="columns">
-                                <ul class="list-group">
-                                <img src="japan/picture/lisa1.jpeg" alt="" width="200" height="200">
-                                <a href="{{ url('/lisa music') }}"> LISA</a>
-                                </ul>
-                              </div>
-                              
-                              <div class="columns">
-                                <ul class="list-group">
-                              <img src="japan/picture/kenshi1.jpg" alt="" width="200" height="200">
-                              <a href="{{ url('/kenshi music') }}"> Kenshi</a>
-                              </ul>
-                              </div>
-
-                              
-                              
-
-        <div>
-            <div style="flood-color: red;"></div>
-        </div>
+<div>
+<div style="flood-color: red;"></div>
+</div>

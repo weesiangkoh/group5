@@ -8,7 +8,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-  <title>Carly Rae Jepsen</title>
+  <title>The Chainsmokers</title>
 </head>
 <style>
     body{
@@ -47,8 +47,10 @@
   -webkit-border-radius:25px;
   border-radius:25px;
     }
+
+    
   </style>
-<nav class="navbar navbar-light navbar-custom">
+ <nav class="navbar navbar-light navbar-custom">
   <img src="image/logo.png" class="img-fluid rounded-circle" style="width: 50px" alt="">
   <a class="navbar-brand" style="width: left;" href="{{ url('/main') }}">M.Y.S</a>&nbsp;  
   <a href="{{ url('/main') }}">Home</a>
@@ -66,7 +68,6 @@
                 <div class="dropdown-divider"></div>
                 <a class="dropdown-item" href="loading.html">Plan</a>
               </div>
-                    
 <form class="form-inline my-2 my-lg-0">
   <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
   <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
@@ -104,94 +105,97 @@
     <div class="row">
       </ul>
     </div>
+
     <div class="columns">
-              <ul class="list-group">
-                  <img src="image/room.jpg" alt="" width="80%" height="100%">
-                  <audio controls>
-                    <source src="mp3/Carly Rae Jepsen - Want You In My Room.ogg" type="audio/ogg">
-                      <source src="mp3/Carly Rae Jepsen - Want You In My Room.mp3" type="audio/mpeg">
-                  </audio> Rae Jepsen - Want You In My Room</p>
+            <ul class="list-group">
+              <img src="image/maxresdefault.jpg" alt="" width="80%" height="100%">
+                <audio controls>
+              <source src="Perfect.ogg" type="audio/ogg">
+                <source src="mp3/Ed Sheeran - Perfect.mp3" type="audio/mpeg">
+                </audio>
+            <p><center>The Chainsmokers</center> </p>
             </ul>
           </div>
           <div class="columns">
               <ul class="list-group">
-                  <img src="image/boyproblem.jpg" alt="" width="80%" height="100%">
+                <img src="image/know.jpg" alt="" width="80%" height="100%">
                   <audio controls>
-                    <source src="mp3/Carly Rae Jepsen - Boy Problems.ogg" type="audio/ogg">
-                      <source src="mp3/Carly Rae Jepsen - Boy Problems.mp3" type="audio/mpeg">
-                  </audio>
-              <p>Carly Rae Jepsen - Boy Problems </p>
+                  <source src="The Chainsmokers - All We Know ft. Phoebe Ryan.ogg" type="audio/ogg">
+                      <source src="mp3/EThe Chainsmokers - All We Know ft. Phoebe Ryan.mp3" type="audio/mpeg">
+                      </audio>
+              <p><center>The Chainsmokers - All We Know ft. Phoebe Ryan</center> </p>
               </ul>
             </div>
 
             <div class="columns">
-              <ul class="list-group">
-                  <img src="image/callme.jpeg" alt="" width="80%" height="100%">
-                  <audio controls>
-                    <source src="mp3/Carly Rae Jepsen - Call Me Maybe.ogg" type="audio/ogg">
-                      <source src="mp3/Carly Rae Jepsen - Call Me Maybe.mp3" type="audio/mpeg">
-                  </audio>
-                <p>Carly Rae Jepsen - Call Me Maybe </p>
+                <ul class="list-group">
+                    <img src="image/closer.jpg" alt="" width="80%" height="100%">
+                    <audio controls>
+                        <source src="mp3/The Chainsmokers - Closer ft. Halsey.mp3" type="audio/mpeg">
+                        </audio>
+                <p><center>The Chainsmokers -Closer ft. Halsey</center> </p>
                 </ul>
               </div>
               <div class="columns">
-              <ul class="list-group">
-                  <img src="image/cut.jpg" alt="" width="80%" height="100%">
-                  <audio controls>
-                    <source src="mp3/Carly Rae Jepsen - Cut To The Feeling .ogg" type="audio/ogg">
-                      <source src="mp3/Carly Rae Jepsen - Cut To The Feeling .mp3" type="audio/mpeg">
-                  </audio>
-                  <p>Carly Rae Jepsen - Cut To The Feeling</p>
+                  <ul class="list-group">
+                      <img src="image/letmedown.jpg" alt="" width="80%" height="100%">
+                    <audio controls>
+                        <source src="mp3/The Chainsmokers - Don't Let Me Down ft. Daya.mp3" type="audio/mpeg">
+                        </audio>
+                  <p><center>The Chainsmokers - Don't Let Me Down ft. Daya</center> </p>
                   </ul>
                 </div>
                 <div class="columns">
-              <ul class="list-group">
-                  <img src="image/likeyou.jpg" alt="" width="80%" height="100%">
-                  <audio controls>
-                    <source src="mp3/Carly Rae Jepsen - I Really Like You.ogg" type="audio/ogg">
-                      <source src="mp3/Carly Rae Jepsen - I Really Like You.mp3" type="audio/mpeg">
-                  </audio>
-                    <p>Carly Rae Jepsen - I Really Like You </p>
+                    <ul class="list-group">
+                        <img src="image/paris.jpg" alt="" width="80%" height="100%">
+                        <audio controls>
+                            <source src="The Chainsmokers - Paris.ogg" type="audio/ogg">
+                            <source src="mp3/The Chainsmokers - Paris.mp3" type="audio/mpeg">
+                            </audio>
+                    <p><center>The Chainsmokers - Paris</center> </p>
                     </ul>
                   </div>
                   <div class="columns">
-              <ul class="list-group">
-                  <img src="image/found.png" alt="" width="80%" height="100%">
-                  <audio controls>
-                    <source src="mp3/Carly Rae Jepsen - Now That I Found You.ogg" type="audio/ogg">
-                      <source src="mp3/Carly Rae Jepsen - Now That I Found You.mp3" type="audio/mpeg">
-                  </audio>
-                      <p>Carly Rae Jepsen - Now That I Found You </p>
+                      <ul class="list-group">
+                        <img src="image/roses.jpg" alt="" width="80%" height="100%">
+                           <audio controls>
+                              <source src="The Chainsmokers - Roses ft. ROZES.ogg" type="audio/ogg">
+                                <source src="mp3/The Chainsmokers - Roses ft. ROZES.mp3" type="audio/mpeg">
+                                </audio>
+                      <p><center>The Chainsmokers - Roses ft. ROZES</center> </p>
                       </ul>
                     </div>
                     <div class="columns">
-              <ul class="list-group">
-                  <img src="image/party.jpg" alt="" width="80%" height="100%">
-                  <audio controls>
-                    <source src="mp3/Carly Rae Jepsen - Party For One.ogg" type="audio/ogg">
-                      <source src="mp3/Carly Rae Jepsen - Party For One.mp3" type="audio/mpeg">
-                  </audio>
-                        <p>Carly Rae Jepsen - Party For One </p>
+                        <ul class="list-group">
+                            <img src="image/side.png" alt="" width="80%" height="100%">
+                            <audio controls>
+                               <source src="The Chainsmokers - Side Effects ft. Emily Warren.ogg" type="audio/ogg">
+                                 <source src="mp3/The Chainsmokers - Side Effects ft. Emily Warren.mp3" type="audio/mpeg">
+                                 </audio>
+                        <p><center>The Chainsmokers - Side Effects ft. Emily Warren </center> </p>
                         </ul>
                       </div>
                       <div class="columns">
-              <ul class="list-group">
-                  <img src="image/sound.jpg" alt="" width="80%" height="100%">
-                  <audio controls>
-                    <source src="mp3/Carly Rae Jepsen - The Sound.ogg" type="audio/ogg">
-                      <source src="mp3/Carly Rae Jepsen - The Sound.mp3" type="audio/mpeg">
-                  </audio>
-                          <p>Carly Rae Jepsen - The Sound</p>
+                          <ul class="list-group">
+                              <img src="image/reaper.jpg" alt="" width="80%" height="100%">
+                              <audio controls>
+                                 <source src="The Chainsmokers - The Reaper.ogg" type="audio/ogg">
+                                   <source src=" mp3/The Chainsmokers - The Reaper.mp3" type="audio/mpeg">
+                                   </audio>
+                               
+                          <p><center>The Chainsmokers - The Reaper</center> </p>
                           </ul>
                         </div>
                         <div class="columns">
-              <ul class="list-group">
-                  <img src="image/much.jpg" alt="" width="80%" height="100%">
-                  <audio controls>
-                    <source src="mp3/Carly Rae Jepsen - Too Much .ogg" type="audio/ogg">
-                      <source src="mp3/Carly Rae Jepsen - Too Much .mp3" type="audio/mpeg">
-                  </audio>
-                            <p>Carly Rae Jepsen - Too Much</p>
+                            <ul class="list-group">
+                                <img src="image/feeling.jpg" alt="" width="80%" height="100%">
+                              <audio controls>
+                                 <source src="The Chainsmokers - This Feeling ft. Kelsea Ballerini.ogg" type="audio/ogg">
+                                   <source src=" mp3/The Chainsmokers - This Feeling ft. Kelsea Ballerini.mp3" type="audio/mpeg">
+                                   </audio>
+
+                        
+
                             </ul>
                           </div>
       

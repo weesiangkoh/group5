@@ -53,6 +53,42 @@ Route::get('/Zedd', function () {
     return view('Zedd');
 });
 
+Route::get('/LMFAOVEVO', function () {
+    return view('LMFAOVEVO');
+});
+
+Route::get('/Chainsmokers', function () {
+    return view('Chainsmokers');
+});
+
+Route::get('/lisa music', function () {
+    return view('lisa music');
+});
+
+Route::get('/kenshi music', function () {
+    return view('kenshi music');
+});
+
+Route::get('/unlasting', function () {
+    return view('unlasting');
+});
+Route::get('/adamas', function () {
+    return view('adamas');
+});
+Route::get('/gurenge', function () {
+    return view('gurenge');
+});
+Route::get('/lemon', function () {
+    return view('lemon');
+});
+Route::get('/loser', function () {
+    return view('loser');
+});
+Route::get('/orion', function () {
+    return view('orion');
+});
+
+
 Route::get('/addProduct',[
     'uses'=>'ProductController@create',
     'as'=>'product'
