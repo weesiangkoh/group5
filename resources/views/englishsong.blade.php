@@ -50,23 +50,23 @@
     }
   
 </style>
-<nav class="navbar navbar-light navbar-custom">
-  <img src="image/logo.png" class="img-fluid rounded-circle" style="width: 50px" alt="">
+ <nav class="navbar navbar-light navbar-custom">
+  <img src="image/312-3126045_create-your-your-name-in-japanese-kanji-music.png" class="img-fluid rounded-circle" style="width: 50px" alt="">
   <a class="navbar-brand" style="width: left;" href="">M.Y.S</a>&nbsp;  
-  <a href="{{ url('/main') }}">Home</a>
-  <a href="{{ url('/contactus') }}">Help</a>
-  <a href="{{ url('/login') }}">Sign in</a>
-  <a href="{{ url('/register') }}">Sign up</a>
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="contactUS.html">Help<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="sign in .html">Sign in<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="sign up.html">Sign up<span class="sr-only">(current)</span></a>
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Category
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="{{ url('/english song') }}">English Music</a>
-                <a class="dropdown-item" href="{{ url('/lisa') }}">Singer Lisa</a>
-                  <a class="dropdown-item" href="{{ url('/kenshi') }}">Singer Kenshi</a>
-                  <a class="dropdown-item" href="{{ url('/list') }}">Japan Music</a>
+                <a class="dropdown-item" href="english song.html">English Music</a>
+                <a class="dropdown-item" href="lisa.html">Singer Lisa</a>
+                  <a class="dropdown-item" href="kenshi.html">Singer Kenshi</a>
+                  <a class="dropdown-item" href="list.html">Japan Music</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="{{ url('/viewlist') }}">Plan</a>
+                <a class="dropdown-item" href="loading.html">Plan</a>
               </div>
                     
             </li>
@@ -100,7 +100,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
-.mySlides {display:none;}
+.mySlides {display:black;}
 </style>
 <body>
  <div class="container-fluid" style="margin-top:10px">
@@ -115,42 +115,42 @@
                             <div class="columns">
                                 <ul class="list-group">
                                 <img src="image/singer/Avicii.png" alt="" width="200" height="200">
-                                <a href="{{ url('/Avicii') }}"> Avicii</a>
+                                <a href="Avicii.html"> Avicii</a>
                                 </ul>
                               </div>
                               
                               <div class="columns">
                                 <ul class="list-group">
                               <img src="image/singer/Carly Rae Jepsen.png" alt="" width="200" height="200">
-                              <a href="{{ url('/Carly') }}"> Carly Rae Jepsen</a>
+                              <a href="Carly Rae Jepsen.html"> Carly Rae Jepsen</a>
                               </ul>
                               </div>
 
                               <div class="columns">
                                   <ul class="list-group">
                                   <img src="image/singer/Ed Sheeran.png" alt="" width="200" height="200">
-                                  <a href="{{ url('/Ed Sheeran') }}"> Ed Sheeran</a>
+                                  <a href="Ed Sheeran.html"> Ed Sheeran</a>
                                   </ul>
                                   </div>
 
                                   <div class="columns">
                                       <ul class="list-group">
                                       <img src="image/singer/LMFAOVEVO.png" alt="" width="200" height="200">
-                                      <a href="{{ url('/LMFAOVEVO') }}"> LMFAOVEVO</a>
+                                      <a href="LMFAOVEVO.html"> LMFAOVEVO</a>
                                       </ul>
                                       </div>
 
                                       <div class="columns">
                                           <ul class="list-group">
                                           <img src="image/singer/The Chainsmokers.png" alt="" width="200" height="200">
-                                          <a href="{{ url('/Chainsmokers') }}"> The Chainsmokers</a>
+                                          <a href="The Chainsmokers.html"> The Chainsmokers</a>
                                           </ul>
                                           </div>
 
                                           <div class="columns">
                                               <ul class="list-group">
                                               <img src="image/singer/Zedd.png" alt="" width="200" height="200">
-                                              <a href="{{ url('/Zedd') }}"> Zedd</a>
+                                              <a href="Zedd.html"> Zedd</a>
                                               </ul>
                                               </div>
 

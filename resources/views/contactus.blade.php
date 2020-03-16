@@ -36,13 +36,12 @@
   <title>Japan&English Music Website!</title>
 </head>
 <nav class="navbar navbar-light navbar-custom">
-  <img src="image/logo.png" class="img-fluid rounded-circle" style="width: 50px" alt="" >
-  <a class="navbar-brand" style="width: left;" href="{{ url('/main') }}">M.Y.S</a>&nbsp;  
+  <img src="image/logo.png" class="img-fluid rounded-circle" style="width: 50px" alt="">
+  <a class="navbar-brand" style="width: left;" href="">M.Y.S</a>&nbsp;  
   <a href="{{ url('/main') }}">Home</a>
   <a href="{{ url('/contactus') }}">Help</a>
   <a href="{{ url('/login') }}">Sign in</a>
   <a href="{{ url('/register') }}">Sign up</a>
-
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Category
               </a>
@@ -52,7 +51,7 @@
                   <a class="dropdown-item" href="{{ url('/kenshi') }}">Singer Kenshi</a>
                   <a class="dropdown-item" href="{{ url('/list') }}">Japan Music</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="loading.html">Plan</a>
+                <a class="dropdown-item" href="{{ url('/viewlist') }}">Plan</a>
               </div>
                     
               

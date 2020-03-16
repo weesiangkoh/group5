@@ -36,22 +36,22 @@
   <title>Japan&English Music Website!</title>
 </head>
 <nav class="navbar navbar-light navbar-custom">
-  <img src="image/logo.png" class="img-fluid rounded-circle" style="width: 50px" alt="">
+  <img src="image/312-3126045_create-your-your-name-in-japanese-kanji-music.png" class="img-fluid rounded-circle" style="width: 50px" alt="">
   <a class="navbar-brand" style="width: left;" href="">M.Y.S</a>&nbsp;  
-  <a href="{{ url('/main') }}">Home</a>
-  <a href="{{ url('/contactus') }}">Help</a>
-  <a href="{{ url('/login') }}">Sign in</a>
-  <a href="{{ url('/register') }}">Sign up</a>
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="contactUS.html">Help<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="sign in .html">Sign in<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="sign up.html">Sign up<span class="sr-only">(current)</span></a>
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Category
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="{{ url('/english song') }}">English Music</a>
-                <a class="dropdown-item" href="{{ url('/lisa') }}">Singer Lisa</a>
-                  <a class="dropdown-item" href="{{ url('/kenshi') }}">Singer Kenshi</a>
-                  <a class="dropdown-item" href="{{ url('/list') }}">Japan Music</a>
+                <a class="dropdown-item" href="english song.html">English Music</a>
+                <a class="dropdown-item" href="lisa.html">Singer Lisa</a>
+                  <a class="dropdown-item" href="kenshi.html">Singer Kenshi</a>
+                  <a class="dropdown-item" href="list.html">Japan Music</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="{{ url('/viewlist') }}">Plan</a>
+                <a class="dropdown-item" href="loading.html">Plan</a>
               </div>
               
 <form class="form-inline my-2 my-lg-0">
@@ -99,7 +99,7 @@
 
 
 <div class="w3-content w3-display-container">
-<iframe width="300" height="200" src="https://www.youtube.com/embed/B3SZ5772mCE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="300" height="200" src="https://www.youtube.com/embed/Csjgq2t0Kz8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="300" height="200" src="https://www.youtube.com/embed/nUtgOwCh2uY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <iframe width="300" height="200" src="https://www.youtube.com/embed/TIthXhCSgPE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">&#10094;</button>

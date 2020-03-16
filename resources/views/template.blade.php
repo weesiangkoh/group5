@@ -1,62 +1,104 @@
 <!doctype html>
-<html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <html lang="en">
+   
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+  .navbar-custom {
+    color:black;
+    background-image: linear-gradient(black, lightblue, black);
+}
 
-    <title>Hello, world!</title>
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-info">
-        <img src="image/logo.png" class="img-fluid rounded-circle" alt="">&nbsp;
-        <a class="navbar-brand" href="#">NSIT</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-      
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-            </li>
-            
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+.navbar-brand {
+  color: red;
+  text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px white;
+}
+
+
+.img {
+  width: 400px;
+  height: 200px;
+  border:100px solid yellow;
+  background: url(image/312-3126045_create-your-your-name-in-japanese-kanji-music.png) no-repeat;
+  -moz-box-shadow: 10px 10px 5px yellow;
+  -webkit-box-shadow: 10px 10px 5px yellow;
+  box-shadow: 50px 50px 5px yellow;
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+  border-radius:25px;
+    }
+  </style>
+
+  <title>Japan&English Music Website!</title>
+</head>
+<nav class="navbar navbar-light navbar-custom">
+  <img src="image/logo.png" class="img-fluid rounded-circle" style="width: 50px" alt="">
+  <a class="navbar-brand" style="width: left;" href="{{ url('/main') }}">M.Y.S</a>&nbsp;  
+            <a class="nav-link" href="{{ url('/main') }}">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="{{ url('/help') }}">Help<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="{{ url('/login') }}">Sign in<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="{{ url('/register') }}">Sign up<span class="sr-only">(current)</span></a>
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Category
               </a>
-              <div class="dropdown-menu bg-info" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="hardware.html">Hardware</a>
-                <a class="dropdown-item" href="software.html">Software</a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="{{ url('/english song') }}">English Music</a>
+                <a class="dropdown-item" href="{{ url('/lisa') }}">Singer Lisa</a>
+                  <a class="dropdown-item" href="{{ url('/kenshi') }}">Singer Kenshi</a>
+                  <a class="dropdown-item" href="{{ url('/list') }}">Japan Music</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="main.html">Training</a>
+                <a class="dropdown-item" href="{{ url('/viewlist') }}">Plan</a>
               </div>
-            </li>
-            
-            <li class="nav-item">
-                <a class="nav-link" href="contactus.html">Contact</a>
-            </li>
-          </ul>
+
+              <body>
           <form class="form-inline my-2 my-lg-0" method="post" action="{{ route('search.product') }}">
           {{ csrf_field() }}
             <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search" name="searchProduct">
             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-          </form>
-        </div>
-      </nav>            
+  
+</form>
+</div>
+</div>
+</nav>
+
+</style>
+</head>
+<body>
+
+<div class="col-md-1"></div>
+</div>
+</div>
+ 
+</div> 
+</div>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+.mySlides {display:none;}
+</style>
+           
    
     <div class="container-fluid" style="margin-top: 10px" >
         <div class="row">
             <div class="col-md-2">
                 <ul class="list-group">
-                    <li class="list-group-item active">Program</li>
-                    <li class="list-group-item">HTML</li>
-                    <li class="list-group-item">CSS</li>
-                    <li class="list-group-item">JavaScript</li>
-                    <li class="list-group-item">Bootstrap</li>
+                    <li class="list-group-item active">package</li>
+                    <li class="list-group-item">PREMIUM</li>
+                    <li class="list-group-item">BASIC</li>
+                   
                 </ul>
             </div>
             <div class="col-md-1"></div>
