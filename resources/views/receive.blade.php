@@ -64,7 +64,7 @@ border-radius:25px;
 </head>
 <nav class="navbar navbar-light navbar-custom">
   <img src="image/logo.png" class="img-fluid rounded-circle" style="width: 50px" alt="">
-  <a class="navbar-brand" style="width: left;" href="">M.Y.S</a>&nbsp;  
+  <a class="navbar-brand" style="width: left;" href="{{ url('/mainphp artisan migrate') }}">M.Y.S</a>&nbsp;  
   <a href="{{ url('/main') }}">Home</a>
   <a href="{{ url('/contactus') }}">Help</a>
   <a href="{{ url('/login') }}">Sign in</a>

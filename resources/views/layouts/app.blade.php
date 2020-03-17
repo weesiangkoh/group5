@@ -19,6 +19,40 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
+<!doctype html>
+ <html lang="en">
+   
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <style>
+  .navbar-custom {
+    color:black;
+    background-image: linear-gradient(black, lightblue, black);
+}
+
+.navbar-brand {
+  color: red;
+  text-shadow: 1px 1px 2px black, 0 0 25px white, 0 0 5px white;
+}
+
+
+.img {
+  width: 400px;
+  height: 200px;
+  border:100px solid yellow;
+  background: url(image/312-3126045_create-your-your-name-in-japanese-kanji-music.png) no-repeat;
+  -moz-box-shadow: 10px 10px 5px yellow;
+  -webkit-box-shadow: 10px 10px 5px yellow;
+  box-shadow: 50px 50px 5px yellow;
+  -moz-border-radius:25px;
+  -webkit-border-radius:25px;
+  border-radius:25px;
+    }
+  </style>
 <body>
     <div id="app">
         <nav class="navbar navbar-expand-md navbar-light bg-white shadow-sm">
@@ -30,6 +64,9 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
+                
+
+                
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav mr-auto">
@@ -77,4 +114,6 @@
         </main>
     </div>
 </body>
+
+
 </html>
