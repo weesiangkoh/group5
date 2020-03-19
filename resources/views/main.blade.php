@@ -164,7 +164,7 @@ function showDivs(n) {
  <audio id="myAudio" controls autoplay>
 
   <source src="LiSA.ogg" type="audio/ogg">
-  <source src="music/LiSA - Crossing Field.mp3" type="audio/mpeg">
+  <source src="music/secretbase.mp3" type="audio/mpeg">
   </audio>
   <script>
     document.getElementById("myAudio").play();
